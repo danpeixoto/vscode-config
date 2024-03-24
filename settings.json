@@ -1,0 +1,89 @@
+{
+    // WORKBENCH
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Panda Syntax",
+    "workbench.editor.labelFormat": "short",
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden", // só usar ctrl-q
+    "workbench.statusBar.visible": false,
+    "window.commandCenter": false,
+    "breadcrumbs.enabled": true,
+    "window.menuBarVisibility": "toggle",
+    "window.openFilesInNewWindow": "on",
+    // EDITOR
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.fontFamily": "JetBrainsMono,Hack,monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.renderLineHighlight": "all",
+    "editor.suggestSelection": "first",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false, // utilizado para o thema mudar conforme a semântica da linguagem
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.cursorSurroundingLines": 5,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.renderWhitespace": "boundary",
+    "editor.tabCompletion": "on",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    // TERMINAL
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // EXPLORER
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    "explorer.copyRelativePathSeparator": "/",
+    "explorer.fileNesting.enabled": true,
+    // OTHER
+    "update.mode": "start",
+    "symbols.hidesExplorerArrows": false,
+    "symbols.files.associations": {
+        "*.spec.ts": "ts-test",
+        "*.test.ts": "ts-test"
+    },
+    "extensions.ignoreRecommendations": true,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "markdown.preview.typographer": true,
+    "files.insertFinalNewline": true,
+    "search.defaultViewMode": "tree",
+    "search.showLineNumbers": true,
+    "files.associations": {
+        ".env*": "dotenv"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000000"
+                }
+            }
+        ]
+    },
+}
